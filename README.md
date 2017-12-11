@@ -2,7 +2,7 @@
 -----------------
 
 ## 联系方式
-* 邮箱: `echo bmppbi5jb29sQGdtYWlsLmNvbQo= | base64 -D`
+* 邮箱: `echo bmppbi5jb29sQGdtYWlsLmNvbQo= | base64 -D`
 * 微信: njin_cool
 
 ## 个人信息
