@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+</head>
+<body>
+    <style>
+        .with-love {
+            width:  200px;
+            margin: 100px auto;
+        }
+        .with-love .icon-love {
+            margin-left: 3px;
+            margin-right: 3px;
+            -webkit-animation: beat 1.2s ease-in-out infinite;
+            animation: beat 1.2s ease-in-out infinite;
+        }
+        .with-love a {
+            text-decoration: none;
+        }
+        @keyframes beat {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+            14% {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+            }
+            28% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+            42% {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+            }
+            70% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+    </style>
+    <div class="with-love">
+        Made with
+        <svg class="icon-love" width="21" height="17" viewBox="0 0 21 17" xmlns="http://www.w3.org/2000/svg"><title>love</title><path d="M14.725.032a5.31 5.31 0 0 0-4.687 2.814 5.312 5.312 0 0 0-10 2.498c0 4.763 5.834 7.397 10 11.564 4.306-4.306 10-6.76 10-11.563A5.312 5.312 0 0 0 14.725.032z" fill="#E82F2F" fill-rule="evenodd"></path></svg>
+        by
+        <a href="https://github.com/sqrtqiezi">Niu Jin</a>
+    </div>
+</body>
+</html>
